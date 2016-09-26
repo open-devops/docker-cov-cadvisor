@@ -1,0 +1,5 @@
+# Cadvisor Image for Open DevOps Pipeline
+cadvisor:
+  image: devopsopen/docker-cov-cadvisor
+  ports:
+    - "19998:8080"
